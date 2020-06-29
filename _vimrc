@@ -29,7 +29,7 @@ else
 endif
 
 if (g:iswindows && g:isGUI)
-    source $VIM/_gvimrc                             " 加载gvim特殊的配置
+    source $HOME/vimfiles/_gvimrc                             " 加载gvim特殊的配置
 endif
 
 " =============================================================================
