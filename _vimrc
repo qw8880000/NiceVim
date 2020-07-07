@@ -37,6 +37,8 @@ endif
 " =============================================================================
 call plug#begin()                     " Specify a directory for plugins
 
+" 通用插件
+" ---------------------------------------------------------------------------------
 Plug 'godlygeek/tabular'             " 文本对齐插件(vim-markdown插件会用到)
 Plug 'tomasr/molokai'                " molokai主题
 Plug 'vim-airline/vim-airline'       " 状态栏/tab栏(statusline/tabline)插件
@@ -53,6 +55,10 @@ Plug 'terryma/vim-multiple-cursors' " 多重选择
 " Plug 'romainl/vim-qf'                 " quickfix列表
 Plug 'liuchengxu/vim-which-key'      " 快捷键导航
 Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
+
+" PowerShell
+" ---------------------------------------------------------------------------------
+Plug 'PProvost/vim-ps1'      " powershell语法高亮
 
 " Plug 'vim-scripts/TxtBrowser'        " 文本高亮
 Plug 'plasticboy/vim-markdown'       " markdown语法高亮
@@ -399,6 +405,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" Plug 'PProvost/vim-ps1'
+" ----------------------------------------------
 
 
 " liuchengxu/vim-which-key
