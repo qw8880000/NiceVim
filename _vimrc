@@ -55,9 +55,10 @@ Plug 'terryma/vim-multiple-cursors' " 多重选择
 " Plug 'romainl/vim-qf'                 " quickfix列表
 Plug 'liuchengxu/vim-which-key'      " 快捷键导航
 Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
+" Plug 'maralla/completor.vim'    " 异步代码补全
+Plug 'jayli/vim-easycomplete'     " 代码补全
+" Plug 'neoclide/coc.nvim' " 代码补全
 
-" PowerShell
-" ---------------------------------------------------------------------------------
 Plug 'PProvost/vim-ps1'      " powershell语法高亮
 
 " Plug 'vim-scripts/TxtBrowser'        " 文本高亮
