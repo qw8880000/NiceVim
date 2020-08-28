@@ -55,9 +55,9 @@ Plug 'terryma/vim-multiple-cursors' " 多重选择
 " Plug 'romainl/vim-qf'                 " quickfix列表
 Plug 'liuchengxu/vim-which-key'      " 快捷键导航
 Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
-" Plug 'maralla/completor.vim'    " 异步代码补全
-Plug 'jayli/vim-easycomplete'     " 代码补全
-" Plug 'neoclide/coc.nvim' " 代码补全
+Plug 'maralla/completor.vim'    " 异步代码补全(依赖python或python3)
+" Plug 'jayli/vim-easycomplete'     " 代码补全(借鉴了其他的一些补全插件，还比较新，暂时还不是很好用)
+" Plug 'neoclide/coc.nvim' " 代码补全(依赖node.js)
 
 Plug 'PProvost/vim-ps1'      " powershell语法高亮
 
