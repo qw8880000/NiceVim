@@ -38,33 +38,37 @@ endif
 call plug#begin()                     " Specify a directory for plugins
 
 " 通用插件
-" ---------------------------------------------------------------------------------
-Plug 'godlygeek/tabular'             " 文本对齐插件(vim-markdown插件会用到)
-Plug 'tomasr/molokai'                " molokai主题
-Plug 'vim-airline/vim-airline'       " 状态栏/tab栏(statusline/tabline)插件
-Plug 'vim-airline/vim-airline-themes' " airline 主题
-Plug 'Yilin-Yang/vim-markbar'       " (marks)标记导航
-Plug 'mhinz/vim-startify'           " vim start screen
-Plug 'preservim/nerdtree'           " 文件目录导航
-Plug 'majutsushi/tagbar'            " tag列表
-Plug 'vim-syntastic/syntastic'      " 语法检查
-Plug 'lfv89/vim-interestingwords'   " 对感兴趣的单词进行高亮
-Plug 'easymotion/vim-easymotion'    " 快速移动
-Plug 'terryma/vim-multiple-cursors' " 多重选择
-" Plug 'vim-scripts/YankRing.vim'     " 复制、修改和删除的历史记录
-" Plug 'romainl/vim-qf'                 " quickfix列表
-Plug 'liuchengxu/vim-which-key'      " 快捷键导航
+" ----------------------------------------------------
+Plug 'godlygeek/tabular'                            " 文本对齐插件(vim-markdown插件会用到)
+" Plug 'junegunn/vim-easy-align'                    " 文本对齐插件（交互式的文本对齐插件，挺好用的）
+Plug 'tomasr/molokai'                               " molokai主题
+Plug 'vim-airline/vim-airline'                      " 状态栏/tab栏(statusline/tabline)插件
+Plug 'vim-airline/vim-airline-themes'               " airline 主题
+Plug 'Yilin-Yang/vim-markbar'                       " (marks)标记导航
+Plug 'mhinz/vim-startify'                           " vim start screen
+Plug 'preservim/nerdtree'                           " 文件目录导航
+Plug 'majutsushi/tagbar'                            " tag列表
+Plug 'lfv89/vim-interestingwords'                   " 对感兴趣的单词进行高亮
+Plug 'easymotion/vim-easymotion'                    " 快速移动
+Plug 'terryma/vim-multiple-cursors'                 " 多重选择
+" Plug 'vim-scripts/YankRing.vim'                   " 复制、修改和删除的历史记录
+" Plug 'romainl/vim-qf'                             " quickfix列表
+Plug 'liuchengxu/vim-which-key'                     " 快捷键导航
 Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
-Plug 'maralla/completor.vim'    " 异步代码补全(依赖python或python3)
-" Plug 'jayli/vim-easycomplete'     " 代码补全(借鉴了其他的一些补全插件，还比较新，暂时还不是很好用)
-" Plug 'neoclide/coc.nvim' " 代码补全(依赖node.js)
 
-Plug 'PProvost/vim-ps1'      " powershell语法高亮
+" 代码编程专用
+" ----------------------------------------------------
+Plug 'vim-syntastic/syntastic'                      " 语法检查
 
-" Plug 'vim-scripts/TxtBrowser'        " 文本高亮
-Plug 'plasticboy/vim-markdown'       " markdown语法高亮
+Plug 'PProvost/vim-ps1'                             " powershell语法高亮
+" Plug 'vim-scripts/TxtBrowser'                     " 文本高亮
+Plug 'plasticboy/vim-markdown'                      " markdown语法高亮
 
-call plug#end()                       " Initialize plugin system
+Plug 'maralla/completor.vim'                        " 异步代码补全(依赖python或python3)
+" Plug 'jayli/vim-easycomplete'                     " 代码补全(借鉴了其他的一些补全插件，还比较新，暂时还不是很好用)
+" Plug 'neoclide/coc.nvim'                          " 代码补全(依赖node.js)
+
+call plug#end()                                     " Initialize plugin system
 
 " =============================================================================
 " vim配置
