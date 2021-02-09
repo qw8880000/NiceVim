@@ -44,13 +44,13 @@ __备注：LeaderF与tagbar会使用到ctags__
 
 ## 一些安装包地址
 
-gvim 64位: <http://software-zone.wangjinle.com/gvim_8.2.1095_x64.exe>
-gvim 32位: <http://software-zone.wangjinle.com/gvim_8.2.1095_x86.exe>
-git client: <http://software-zone.wangjinle.com/Git-2.19.1-64-bit.exe>
-ctags: <http://software-zone.wangjinle.com/ctags58.zip>
-python2 64位: <http://software-zone.wangjinle.com/python-2.7.17.amd64.msi>
-python2 32位: <http://software-zone.wangjinle.com/python-2.7.17.msi>
-python3 64位: <http://software-zone.wangjinle.com/python-3.8.3-amd64.exe>
-python3 32位: <http://software-zone.wangjinle.com/python-3.8.2.exe>
-ripgrep: <http://software-zone.wangjinle.com/ripgrep-12.1.1-x86_64-pc-windows-msvc.zip>
-vim中文文档: <http://software-zone.wangjinle.com/vimcdoc-2.1.0-setup-unicode.exe>
+- gvim 64位: <http://software-zone.wangjinle.com/gvim_8.2.1095_x64.exe>
+- gvim 32位: <http://software-zone.wangjinle.com/gvim_8.2.1095_x86.exe>
+- git client: <http://software-zone.wangjinle.com/Git-2.19.1-64-bit.exe>
+- ctags: <http://software-zone.wangjinle.com/ctags58.zip>
+- python2 64位: <http://software-zone.wangjinle.com/python-2.7.17.amd64.msi>
+- python2 32位: <http://software-zone.wangjinle.com/python-2.7.17.msi>
+- python3 64位: <http://software-zone.wangjinle.com/python-3.8.3-amd64.exe>
+- python3 32位: <http://software-zone.wangjinle.com/python-3.8.2.exe>
+- ripgrep: <http://software-zone.wangjinle.com/ripgrep-12.1.1-x86_64-pc-windows-msvc.zip>
+- vim中文文档: <http://software-zone.wangjinle.com/vimcdoc-2.1.0-setup-unicode.exe>
