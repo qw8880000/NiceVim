@@ -68,6 +68,8 @@ Plug 'maralla/completor.vim'                        " 异步代码补全(依赖p
 " Plug 'jayli/vim-easycomplete'                     " 代码补全(借鉴了其他的一些补全插件，还比较新，暂时还不是很好用)
 " Plug 'neoclide/coc.nvim'                          " 代码补全(依赖node.js)
 
+Plug 'preservim/nerdcommenter'      " 生成注释
+
 call plug#end()                                     " Initialize plugin system
 
 " =============================================================================
@@ -414,6 +416,23 @@ let g:syntastic_check_on_wq = 0
 " Plug 'PProvost/vim-ps1'
 " ----------------------------------------------
 
+
+" preservim/nerdcommenter
+" ----------------------------------------------
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+"单行注释 
+"[count]<leader>cc |NERDCommenterComment|
+"多行注释
+"[count]<leader>cm |NERDCommenterMinimal|
+" 切换注释样式
+" <leader>ca |NERDCommenterAltDelims|
+" 去除注释
+" [count]<leader>cu |NERDCommenterUncomment|
+" 行尾添加注释
+" <leader>cA |NERDCommenterAppend|
 
 " liuchengxu/vim-which-key
 " ----------------------------------------------
